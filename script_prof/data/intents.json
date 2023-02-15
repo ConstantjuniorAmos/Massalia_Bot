@@ -1,0 +1,27 @@
+{"intents": [
+    {
+        "tag": "greetings",
+        "patterns" : ["hello", "hey", "hi", "good day", "greetings", "how is it going ?"],
+        "responses": ["Hello !", "Hey !", "What can I do for you ?"]
+    },
+    {
+        "tag": "mood",
+        "patterns" : ["Are you okay ?", "How are you ?", "How are you feeling ?"],
+        "responses": ["I'm feeling good !", "I'm fine :)"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns" : ["cya", "see yu later", "bye", "Goodbye", "I am leaving", "Have a good day", "see ya", "see you"],
+        "responses": ["Sad to see you go", "Talk to you later", "Leaving so soon ?", "Bye-bye!", "Goodbye !"]
+    },
+    {
+        "tag" : "name",
+        "patterns": ["who are you", "what is your name ?", "what should I call you ?"],
+        "responses" : ["My name is Massilia :)", "Please call me Massilia !", "My creator named me Massilia", "I'm Massilia !"]
+    },
+    {
+        "tag": "bot",
+        "patterns": ["are you human ?", "do you exist ?"],
+        "responses": ["I am but an artificial intelligence."]
+    }
+]}
